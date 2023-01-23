@@ -1,0 +1,26 @@
+{
+  "name": "esusu-project",
+  "version": "1.0.0",
+  "description": "Esusu CRU_ API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node --require dotenv/config index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.2.0"
+  }
+}
